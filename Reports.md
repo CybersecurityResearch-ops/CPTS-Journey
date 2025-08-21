@@ -1,5 +1,5 @@
 # Nibbles - Knowledge Check
-This is the first box in the the CPTS path where there is not a guided walkthrough to assist us. 
+This is the first CPTS box without a guided walkthrough. 
 
 ## Report
 
