@@ -54,9 +54,13 @@ GetSimple v3.3.15 vulnerability found in metasploit
 <img width="555" height="486" alt="HTBLAB-exploit_options" src="https://github.com/user-attachments/assets/dc2c02c2-3d83-4334-b851-273fb096a4c7" />
 
 
-Exploit completed successfully and brought us a shell
+Exploit completed successfully and spawned a shell
 
 <img width="630" height="128" alt="HTBLAB-exploit" src="https://github.com/user-attachments/assets/dcab40ce-4746-4a66-bcd7-f6ff5a3a599e" />
+
+Upgrade shell with "shell" then python script: python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+User flag obtained
 
 
 
