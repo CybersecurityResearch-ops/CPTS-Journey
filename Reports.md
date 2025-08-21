@@ -76,9 +76,25 @@ sudo php -r "system('/bin/sh');"
 <img width="668" height="105" alt="HTBLAB-root" src="https://github.com/user-attachments/assets/0a94d5bb-d3fa-4511-86db-ee0991bc41c7" />
 
 
-Gained a root shell. 
+We gained a root shell. 
+
+## 📝 Notes / Lessons Learned
 
 
+Thorough directory enumeration can reveal sensitive files containing credentials or configuration details
+
+Weak admin password + outdated CMS led to full compromise
+
+Misconfigured sudo privileges (NOPASSWD) allowed root escalation
+
+## Tools used 
+
+nmap
+whatweb
+gobuster
+johntheripper
+metasploit
+GTFObins
 
 
 
