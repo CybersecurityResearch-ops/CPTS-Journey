@@ -1,3 +1,3 @@
 # CPTS-Journey
-Here is where I will be documenting my journey throughout HTB's CPTS 
+Here, I track and document my progress throughout HTB’s CPTS path
 
