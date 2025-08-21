@@ -62,7 +62,9 @@ Upgrade to Linux shell with "shell" then python script: python3 -c 'import pty; 
 
 ## 🚀 Privilege Escalation
 
-Sudo -l gives us the following output: User www-data may run the following commands on gettingstarted:
+Sudo -l gives us the following output: 
+
+User www-data may run the following commands on gettingstarted:
     (ALL : ALL) NOPASSWD: /usr/bin/php
 
 We can run php sudo commands without password.
