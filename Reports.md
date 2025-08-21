@@ -67,7 +67,7 @@ Sudo -l gives us the following output:
 User www-data may run the following commands on gettingstarted:
     (ALL : ALL) NOPASSWD: /usr/bin/php
 
-We can run php sudo commands without password.
+This indicates we can run PHP commands as root.
 
 Privilege escalation via GTFObins:
 
