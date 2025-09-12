@@ -1,6 +1,7 @@
 # Footprinting Lab - Easy
 
 **Author:** Arathorna 
+
 **Date:** 2025-09-11   
 **Objective:** Learn enumeration, FTP, and SSH exploitation techniques.
 
