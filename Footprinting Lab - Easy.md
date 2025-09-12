@@ -1,4 +1,4 @@
-# HackTheBox Lab: InLaneFreight (CPTS Documentation)
+# Footprinting Lab - Easy
 
 **Author:** Arathorna 
 **Date:** 2025-09-11   
