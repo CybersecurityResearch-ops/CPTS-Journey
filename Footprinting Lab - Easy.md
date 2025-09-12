@@ -1,4 +1,4 @@
-# HackTheBox Lab: InLaneFreight (CPTS Documentation)
+## HackTheBox Lab: InLaneFreight (CPTS Documentation)
 
 **Author:** Your Name  
 **Date:** 2025-09-12  
