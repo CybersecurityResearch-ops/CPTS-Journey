@@ -21,7 +21,16 @@ The goal was to enumerate services, locate accessible files, and gain shell acce
 
 ---
 
-## 1. Enumeration
+## Enumeration
+
+We start by doing an Nmap scan 
+
+<img width="502" height="363" alt="Screenshot from 2025-09-12 16-21-05" src="https://github.com/user-attachments/assets/471f7a3b-2ec9-4bef-b0b0-83a911a277ed" />
 
 
+## Gaining a Foothold
 
+
+# Tools Used
+
+ftp, ssh, nmap, dig
