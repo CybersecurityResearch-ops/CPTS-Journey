@@ -26,7 +26,7 @@ Next, we conducted a UDP scan and discovered that the SNMP service was running.
 <img width="512" height="348" alt="Screenshot from 2025-09-17 16-21-08" src="https://github.com/user-attachments/assets/6b9b1dac-907d-4070-b758-7d81b13822c3" />
 
 
-Further enumeration using a wordlist against SNMP shares revealed a share called **`backup`**. By connecting to this share and performing an SNMP walk, we discovered the username `tom` and an associated password.
+Further enumeration using a wordlist against SNMP shares revealed a share called **`backup`**. By connecting to this share and using a tool called snmpwalk, we discovered the username `tom` and an associated password.
 
 <img width="503" height="113" alt="Screenshot from 2025-09-17 13-25-43" src="https://github.com/user-attachments/assets/a05de625-9871-420e-9a74-7e452b5fe227" />
 
