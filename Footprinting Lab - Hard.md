@@ -69,13 +69,12 @@ While exploring the file system, we notice a couple of entries related to MySQL.
 
 
 
-
 We then attempt to log in to MySQL using the credentials discovered earlier.
 
 <img width="503" height="303" alt="Screenshot from 2025-09-17 15-32-29" src="https://github.com/user-attachments/assets/9c9382eb-4b78-4121-bc3e-58cd906561b6" />
 
 
-After successfully logging in, we find a database named users.
+After successfully logging in, we find a database named `users`.
 
 <img width="503" height="324" alt="Screenshot from 2025-09-17 15-36-14" src="https://github.com/user-attachments/assets/e69440b8-78b8-4cfa-ba10-26d71c2c8b54" />
 
