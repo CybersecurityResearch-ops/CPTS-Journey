@@ -83,7 +83,8 @@ After successfully logging in, we find a database named `users`.
 
 By running the following query, we successfully retrieve the user HTB along with the corresponding password.
 
-<img width="416" height="157" alt="Screenshot from 2025-09-17 15-45-09" src="https://github.com/user-attachments/assets/a0193d5d-9e5b-4fc1-8ee3-d37d8461505f" />
+<img width="416" height="157" alt="HTB" src="https://github.com/user-attachments/assets/ee73b325-21ea-4db4-b4d6-3423158e46af" />
+
 
 
 
