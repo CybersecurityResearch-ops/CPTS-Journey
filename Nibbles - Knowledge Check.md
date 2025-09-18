@@ -1,9 +1,7 @@
 # Nibbles - Knowledge Check
 This is the first CPTS box without a guided walkthrough. 
 
-## Report
-
-**Date:** 2025-08-19  
+## Report 
 
 **Author:** Arathorna
 
