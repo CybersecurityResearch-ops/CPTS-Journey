@@ -3,6 +3,8 @@ This is the first CPTS box without a guided walkthrough.
 
 ## Report 
 
+**Date:** 08/19/2025
+
 **Author:** Arathorna
 
 **Objective:** Gain a foothold of the system and escalate privileges
