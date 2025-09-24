@@ -11,7 +11,7 @@ This is the first CPTS box without a guided walkthrough.
 
 ---
 
-## 🖥️ Reconnaissance
+## Reconnaissance
 
 ### Nmap Scan
 nmap --open -sV -oA HTB <target_ip>
@@ -22,7 +22,7 @@ Findings:
 80/tcp → Apache httpd 2.4.41 (Ubuntu)
 Host is Ubuntu with a http web server running on port 80.
 
-## 🌐 Web Enumeration
+## Web Enumeration
 
 ### whatweb
 whatweb <target_ip>
@@ -37,14 +37,14 @@ Findings: /admin → (admin login page), /data/users/admin.xml → Username: adm
 
 <img width="954" height="356" alt="HTBLAB-credentials" src="https://github.com/user-attachments/assets/70c4f2a9-e55d-4543-bad5-dc023057ef38" />
 
-### 🔑 Credential Discovery
+### Credential Discovery
 Cracked password hash with johntheripper → Admin Password: admin
 Logged into /admin panel successfully.
 
 <img width="664" height="422" alt="HTBLAB-john" src="https://github.com/user-attachments/assets/320fc758-d1dd-45bb-8ea1-f0a3c537e6f4" />
 
 
-### 💥 Exploitation
+### Exploitation
 GetSimple v3.3.15 vulnerability found in metasploit
 
 <img width="611" height="66" alt="HTBLAB-GetSimple" src="https://github.com/user-attachments/assets/4ecee1d4-d39f-41e5-8224-0de185c8eee3" />
@@ -62,7 +62,7 @@ Exploit completed successfully and spawned a shell
 Upgrade to Linux shell with "shell" then python script: python3 -c 'import pty; pty.spawn("/bin/bash")'
 
 
-## 🚀 Privilege Escalation
+## Privilege Escalation
 
 Sudo -l gives us the following output: 
 
@@ -80,7 +80,7 @@ sudo php -r "system('/bin/sh');"
 
 We gained a root shell. 
 
-## 📝 Notes / Lessons Learned
+## Notes / Lessons Learned
 
 
 Thorough directory enumeration can reveal sensitive files containing credentials or configuration details
