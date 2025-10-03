@@ -158,6 +158,8 @@ We manage to catch a shell session and we navigate to "customscripts" to find th
 We conduct an nmap scan on our 3rd and final target and we find the host name shells-winblue. We can also see that it has open ports responsible for SMB. We can try to see if our target is vulnerable to the etnernalblue exploit. We can test this with an auxiliary module in metasploit. 
 
 
+<img width="809" height="405" alt="Screenshot from 2025-10-03 12-48-03" src="https://github.com/user-attachments/assets/b2ce07cc-7936-41a3-a4dc-39f881c55e30" />
+
 <img width="775" height="58" alt="Screenshot from 2025-10-02 17-06-56" src="https://github.com/user-attachments/assets/93877f70-58ea-4ec8-ab1f-f27d7c83d61c" />
 
 
@@ -174,13 +176,3 @@ Navigating to the \Administrator\Desktop directory, we find our Skills-flag.txt 
 
 
 <img width="730" height="222" alt="Screenshot from 2025-10-02 17-58-35" src="https://github.com/user-attachments/assets/9ee0b055-f7a2-47a0-927b-bdfd34d726d4" />
-
-
-
-
-
-
-
-
-
-
