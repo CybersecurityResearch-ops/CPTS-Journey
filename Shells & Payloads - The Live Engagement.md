@@ -83,7 +83,7 @@ It was uploaded successfully. We will now start a Listener on metasploit, only t
 <img width="820" height="400" alt="Screenshot from 2025-10-02 13-35-17" src="https://github.com/user-attachments/assets/89ddf7dc-66a8-435d-9460-29975b2da3a0" />
 
 
-Now we head back to the Tomcat Manager UI and click on one shell.war file to execute the payload. We check in on our listener and we have succesfully secured a reverse shell. We navigate to the Shares directory and discover a Share "dev-share". 
+Now we head back to the Tomcat Manager UI and click on the shell.war file to execute the payload. We check in on our listener and we have succesfully secured a reverse shell. We navigate to the Shares directory and discover a Share "dev-share". 
 
 
 <img width="820" height="392" alt="Screenshot from 2025-10-02 13-34-36" src="https://github.com/user-attachments/assets/d0b6a4e2-92bf-42fc-8d56-7c9393b23306" />
