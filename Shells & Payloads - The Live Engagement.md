@@ -4,7 +4,7 @@
 
 **Date:** 2025-10-2  
 
-**Objective:** Exploit and gain a RCE session on each of the 3 hosts on the same network. 
+**Objective:** Enumerate three hosts on the same network, identify vulnerabilities, and gain RCE/shells on each host.
 
 ---
 
