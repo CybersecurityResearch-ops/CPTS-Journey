@@ -176,3 +176,7 @@ Navigating to the \Administrator\Desktop directory, we find our Skills-flag.txt 
 
 
 <img width="730" height="222" alt="Screenshot from 2025-10-02 17-58-35" src="https://github.com/user-attachments/assets/9ee0b055-f7a2-47a0-927b-bdfd34d726d4" />
+
+---
+Tools Used: nmap, msfvenom, msfconsole, 
+---
