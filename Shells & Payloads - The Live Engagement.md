@@ -18,7 +18,12 @@ This lab focused on full-cycle attack flow: host enumeration, service discovery,
 
 ---
 
-First things fist, we RDP into our foothold machine provided. Once we establish an RDP session we will explore the file system for any valuable information or credentials lying around. We manage to discover a set of admin credentials for an Apache server. 
+First things fist, we RDP into our foothold machine provided. Once we establish an RDP session we will explore the file system for any valuable information or credentials lying around. 
+
+<img width="548" height="44" alt="Screenshot from 2025-10-01 15-23-45" src="https://github.com/user-attachments/assets/85aa429c-a2e8-4835-85fc-73d0d6db1173" />
+
+
+We manage to discover a set of admin credentials for an Apache server. 
 
 <img width="607" height="295" alt="Screenshot from 2025-10-02 13-42-35" src="https://github.com/user-attachments/assets/e6af126a-ffb9-40a1-9502-cafd58c97da2" />
 
