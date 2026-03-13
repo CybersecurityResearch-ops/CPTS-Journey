@@ -6,10 +6,10 @@ In this lab I built a small **Security Operations Center (SOC) simulation enviro
 
 The goal of this project is to simulate tasks that a SOC analyst might perform daily, such as:
 
-* ingesting endpoint logs
-* analyzing system activity
-* detecting suspicious commands
-* investigating authentication failures
+- ingesting endpoint logs
+- analyzing system activity
+- detecting suspicious commands
+- investigating authentication failures
 
 The lab environment consists of three virtual machines:
 
@@ -31,10 +31,10 @@ The Ubuntu virtual machine acts as the **central logging server** running **Splu
 
 Splunk is a **Security Information and Event Management (SIEM)** platform that allows organizations to:
 
-* collect logs from many systems
-* index and store those logs
-* search and analyze security events
-* detect suspicious behavior
+- collect logs from many systems
+- index and store those logs
+- search and analyze security events
+- detect suspicious behavior
 
 After installing Splunk on Ubuntu, I started the service with:
 
@@ -71,62 +71,46 @@ I also installed Sysmon (System Monitor), part of the Microsoft Sysinternals too
 
 Sysmon enhances Windows logging by recording detailed system activity such as:
 
-process creation
-
-network connections
-
-file creation
-
-registry modifications
+- process creation
+- network connections
+- file creation
+- registry modifications
 
 These events are extremely useful for detecting attacker behavior.
 
 Example Sysmon Event IDs:
 
-Event ID	Description
+#### Event ID	Description
 1	Process creation
 3	Network connection
 11	File creation
 After installation, Sysmon logs can be found in:
 
-Event Viewer
-Applications and Services Logs
-Microsoft
-Windows
-Sysmon
-Operational
+- Event Viewer
+- Applications and Services Logs
+- Microsoft
+- Windows
+- Sysmon
+- Operational
+
 These logs are then forwarded to Splunk by the Splunk Universal Forwarder.
 
-inputs.conf Configuration
+### inputs.conf Configuration
 To tell the forwarder which logs to collect, we configure the inputs.conf file.
 
 Example configuration:
 
-[WinEventLog://Application]
-index = main
-disabled = false
-
-[WinEventLog://Security]
-index = main
-disabled = false
-
-[WinEventLog://System]
-index = main
-disabled = false
-
-[WinEventLog://Microsoft-Windows-Sysmon/Operational]
-index = main
-disabled = false
+*inputs.conf image*
 
 This configuration instructs the forwarder to collect logs from:
 
--Windows Application logs
+- Windows Application logs
 
--Windows Security logs
+- Windows Security logs
 
--Windows System logs
+- Windows System logs
 
--Sysmon operational logs
+- Sysmon operational logs
 
 The logs are then forwarded to the Splunk index named "main".
 
