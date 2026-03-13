@@ -41,6 +41,7 @@ After installing Splunk on Ubuntu, I started the service with:
 ```bash
 sudo /opt/splunk/bin/splunk start --run-as-root
 ```
+
 *image of service initialization*
 
 Once running, the Splunk web interface is available on:
@@ -48,6 +49,7 @@ Once running, the Splunk web interface is available on:
 ```
 http://<Ubuntu-IP>:8000
 ```
+
 *image of splunk interface*
 
 This interface allows analysts to search logs and build detections.
@@ -84,9 +86,9 @@ Sysmon enhances Windows logging by recording detailed system activity such as:
 
 These events are extremely useful for detecting attacker behavior.
 
-Example Sysmon Event IDs:
+#### Example Sysmon Event IDs:
 
-#### Event ID	Description
+Event ID	Description
 1	Process creation
 3	Network connection
 11	File creation
@@ -142,7 +144,7 @@ notepad.exe
 ```
 Because Sysmon logs process creation (Event ID 1), the event appears in Splunk.
 
-####Example search:
+#### Example search:
 ```
 index=main EventCode=1 notepad.exe
 ```
@@ -177,7 +179,7 @@ However, encoded commands are still visible in Sysmon logs.
 
 *image of encoded powershell command log*
 
-Search example in Splunk:
+#### Search example in Splunk:
 ```
 index=main EventCode=1 powershell
 ```
@@ -198,6 +200,7 @@ net user
 net localgroup administrators
 systeminfo
 ```
+
 *image of commands run*
 
 These commands allow an attacker to discover:
@@ -216,14 +219,16 @@ Because Sysmon records process creation, each command generates an event.
 
 *image of command execution logs*
 
-Example Splunk search:
+#### Example Splunk search:
 ```
 index=main EventCode=1
 CommandLine="*ipconfig*" OR CommandLine="*net user*"
 ```
 These logs allow analysts to detect suspicious reconnaissance activity.
 
+
 ### Brute Force Attack Simulation
+
 Finally, I simulated a brute force attack against the Windows SMB service using the Kali attacker machine.
 
 The tool used was CrackMapExec, which is commonly used for penetration testing and network exploitation.
@@ -251,7 +256,7 @@ These logs appear in Splunk and include useful information such as:
 
 *image of CME logs*
 
-Example Splunk search:
+#### Example Splunk search:
 
 ```
 index=main EventCode=4625
