@@ -6,5 +6,5 @@ I will go through the entire setup process for this lab and at the end I will cr
 
 I set up the Ubuntu VM first by installing splunk enterprise and initilaizing the splunk server with the following command: sudo /opt/splunk/bin/splunk start --run-as-root 
 
- 
+   
 
