@@ -21,7 +21,7 @@ The lab environment consists of three virtual machines:
 
 The Windows system generates logs which are forwarded to the Splunk server for analysis. After configuring the environment, I simulate several common attacker behaviors and detect them using Splunk searches.
 
----
+
 
 # Part 1 — Environment Setup
 
