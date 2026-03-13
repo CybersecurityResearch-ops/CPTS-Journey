@@ -6,10 +6,10 @@ In this lab I built a small **Security Operations Center (SOC) simulation enviro
 
 The goal of this project is to simulate tasks that a SOC analyst might perform daily, such as:
 
-- ingesting endpoint logs
-- analyzing system activity
-- detecting suspicious commands
-- investigating authentication failures
+* ingesting endpoint logs
+* analyzing system activity
+* detecting suspicious commands
+* investigating authentication failures
 
 The lab environment consists of three virtual machines:
 
@@ -31,10 +31,10 @@ The Ubuntu virtual machine acts as the **central logging server** running **Splu
 
 Splunk is a **Security Information and Event Management (SIEM)** platform that allows organizations to:
 
-- collect logs from many systems
-- index and store those logs
-- search and analyze security events
-- detect suspicious behavior
+* collect logs from many systems
+* index and store those logs
+* search and analyze security events
+* detect suspicious behavior
 
 After installing Splunk on Ubuntu, I started the service with:
 
@@ -43,15 +43,17 @@ sudo /opt/splunk/bin/splunk start --run-as-root
 ```
 Once running, the Splunk web interface is available on:
 
+```
 http://<Ubuntu-IP>:8000
+```
 This interface allows analysts to search logs and build detections.
 
-Windows Endpoint Monitoring
+### Windows Endpoint Monitoring
 The Windows 10 machine represents a monitored endpoint in an organization.
 
 Two important tools were installed on this system:
 
-Splunk Universal Forwarder
+#### Splunk Universal Forwarder
 The Splunk Universal Forwarder is a lightweight agent that runs on endpoints and sends logs to the Splunk server.
 
 Its role is to:
