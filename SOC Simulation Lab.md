@@ -39,7 +39,7 @@ Splunk is a **Security Information and Event Management (SIEM)** platform that a
 After installing Splunk on Ubuntu, I started the service with:
 
 ```bash
-sudo /opt/splunk/bin/splunk start --run-as-root
+sudo /opt/splunk/bin/splunk start --run-as-root```
 Once running, the Splunk web interface is available on:
 
 http://<Ubuntu-IP>:8000
