@@ -36,12 +36,7 @@ Splunk is a **Security Information and Event Management (SIEM)** platform that a
 - Search and analyze security events
 - Detect suspicious behavior
 
-After installing Splunk on Ubuntu, I started the service with:
-
-```bash
-sudo /opt/splunk/bin/splunk start --run-as-root
-```
-
+After installing Splunk on Ubuntu, I star
 *image of service initialization*
 
 Once running, the Splunk web interface is available on:
