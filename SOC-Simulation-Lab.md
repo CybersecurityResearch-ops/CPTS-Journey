@@ -38,7 +38,7 @@ Splunk is a **Security Information and Event Management (SIEM)** platform that a
 
 After installing Splunk on Ubuntu, I start
 
-!(images/Ubuntu_server_splunk.png)
+![](images/Ubuntu_server_splunk.png)
 
 *image of service initialization*
 
