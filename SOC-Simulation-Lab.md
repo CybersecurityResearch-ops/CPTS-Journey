@@ -60,7 +60,7 @@ This interface allows analysts to search logs and build detections.
 ### Windows Endpoint Monitoring
 The Windows 10 machine represents a monitored endpoint in an organization.
 
-Two important tools were installed on this system:
+I installed two important tools on this system:
 
 #### Splunk Universal Forwarder
 The Splunk Universal Forwarder is a lightweight agent that runs on endpoints and sends logs to the Splunk server.
@@ -78,7 +78,7 @@ Without the forwarder, Splunk would have no way to collect logs from the Windows
 #### Sysmon Installation
 I also installed Sysmon (System Monitor), part of the Microsoft Sysinternals toolkit.
 
-*Sysmon install image*
+![](/images/SysmonInstall.png)
 
 Sysmon enhances Windows logging by recording detailed system activity such as:
 
