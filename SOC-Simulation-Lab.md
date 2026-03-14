@@ -52,7 +52,8 @@ Once running, the Splunk web interface is available on:
 http://<Ubuntu-IP>:8000
 ```
 
-*image of splunk interface*
+![](/images/SplunkUI.png)
+
 
 This interface allows analysts to search logs and build detections.
 
