@@ -138,7 +138,7 @@ This is necessary because:
 
 Without these permissions, the forwarder cannot read the logs and they will not appear in Splunk.
 
-*image of permission*
+![](/images/LocalSystemAccount.png)
 
 ### Verifying Log Ingestion
 To confirm that logging works correctly, I executed the following command:
