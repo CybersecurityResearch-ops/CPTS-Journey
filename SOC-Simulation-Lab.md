@@ -113,7 +113,7 @@ To tell the forwarder which logs to collect, we configure the inputs.conf file.
 
 Example configuration:
 
-![](/images/inputsconf.png)
+![](/images/Inputsconf.png)
 
 This configuration instructs the forwarder to collect logs from:
 
