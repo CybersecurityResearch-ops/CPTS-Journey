@@ -1,4 +1,4 @@
 # Cybersecurity Labs & CPTS-Journey
-Here I track my hands-on cybersecurity labs and progress through Hack The Box’s Penetration Tester path as I prepare for the CPTS exam.
+This repository tracks my hands-on cybersecurity labs and my progression through Hack The Box’s Penetration Tester path while preparing for the CPTS certification exam.
 
 
