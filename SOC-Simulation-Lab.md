@@ -248,7 +248,7 @@ The tool used was CrackMapExec, which is commonly used for penetration testing a
 
 This attack repeatedly attempts to authenticate to SMB using different credentials.
 
-*image of CME command*
+ ![](/images/CME_bruteforce.png)
 
 This generates failed login events in Windows.
 
@@ -267,7 +267,6 @@ These logs appear in Splunk and include useful information such as:
 
 - Logon failure reason
 
-*image of CME logs*
 
 #### Example Splunk search:
 
@@ -277,7 +276,9 @@ index=main EventCode=4625
 ```
 This allows us to quickly identify brute force attempts and determine the source of the attack.
 
-
+ ![](/images/CME_bruteforce_splunk.png)
+ ![](/images/CME_bruteforce_detailed.png)
+ 
 #### Key Lessons Learned
 
 Through this lab I gained practical experience with:
@@ -289,6 +290,7 @@ Through this lab I gained practical experience with:
 - Analyzing security events
 
 - Detecting attacker techniques
+
 
 This lab demonstrates and helped me understand how SOC analysts use centralized logging tools such as Splunk Enterprise to monitor systems and investigate suspicious activity.
 
