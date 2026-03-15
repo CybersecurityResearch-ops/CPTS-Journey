@@ -151,11 +151,13 @@ Because Sysmon logs process creation (Event ID 1), the event appears in Splunk.
 ```
 index=main EventCode=1 notepad.exe
 ```
+
 ![](/images/Notepad_test.png)
 
 ![](/images/Notepad_eventviewer_test.png)
 
 ![](/images/Notepad_splunk_test.png)
+
 
 This confirms that the logging pipeline is functioning correctly:
 
@@ -170,7 +172,7 @@ Attackers often encode PowerShell commands using Base64 encoding.
 
 Example:
 
-*PS encoded command image*
+![](/images/Encoded_PS_command.png)
 
 Encoding PowerShell commands helps attackers:
 
@@ -184,7 +186,7 @@ Encoding PowerShell commands helps attackers:
 
 However, encoded commands are still visible in Sysmon logs.
 
-*image of encoded powershell command log*
+![](/images/Encoded_PS_splunk.png)
 
 #### Search example in Splunk:
 ```
