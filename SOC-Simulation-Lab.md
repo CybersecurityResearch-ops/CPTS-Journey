@@ -104,7 +104,7 @@ After installation, Sysmon logs can be found in:
 - Sysmon
 - Operational
 
-*image of location*
+![](Sysmon&Operational_EventViewer.png)
 
 These logs are then forwarded to Splunk by the Splunk Universal Forwarder.
 
