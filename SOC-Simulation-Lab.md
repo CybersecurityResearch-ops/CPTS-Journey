@@ -210,8 +210,6 @@ net localgroup administrators
 systeminfo
 ```
 
-*image of commands run*
-
 These commands allow an attacker to discover:
 
 - The current user account
@@ -226,7 +224,12 @@ These commands allow an attacker to discover:
 
 Because Sysmon records process creation, each command generates an event.
 
-*image of command execution logs*
+![](/images/whoami.png)
+![](/images/ipconfig.png)
+![](/images/whoami.png)
+![](/images/Net_user.png)
+![](/images/Localgroup_admin.png)
+![](/images/systeminfo.png)
 
 #### Example Splunk search:
 ```
