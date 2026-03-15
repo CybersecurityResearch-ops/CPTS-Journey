@@ -154,7 +154,7 @@ index=main EventCode=1 notepad.exe
 
 ![](/images/Notepad_test.png)
 
-![](/images/Notepad_eventviewer_test.png)
+![](/images/NotePad_eventviewer_test.png)
 
 ![](/images/Notepad_splunk_test.png)
 
@@ -226,7 +226,6 @@ Because Sysmon records process creation, each command generates an event.
 
 ![](/images/whoami.png)
 ![](/images/ipconfig.png)
-![](/images/whoami.png)
 ![](/images/Net_user.png)
 ![](/images/Localgroup_admin.png)
 ![](/images/systeminfo.png)
