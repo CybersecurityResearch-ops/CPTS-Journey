@@ -148,15 +148,16 @@ notepad.exe
 ```
 Because Sysmon logs process creation (Event ID 1), the event appears in Splunk.
 
-#### Example search:
-```
-index=main EventCode=1 notepad.exe
-```
+
 
 ![](/images/Notepad_test.png)
 
 ![](/images/NotePad_eventviewer_test.png)
 
+#### Example search:
+```
+index=main EventCode=1 notepad.exe
+```
 ![](/images/Notepad_splunk_test.png)
 
 
