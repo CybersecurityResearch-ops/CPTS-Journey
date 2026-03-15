@@ -151,7 +151,11 @@ Because Sysmon logs process creation (Event ID 1), the event appears in Splunk.
 ```
 index=main EventCode=1 notepad.exe
 ```
-*image of command execution + log of command* ![](Notepad_test.png)
+![](Notepad_test.png)
+
+![](Notepad_eventviewer_test.png)
+
+![](Notepad_splunk_test.png)
 
 This confirms that the logging pipeline is functioning correctly:
 
