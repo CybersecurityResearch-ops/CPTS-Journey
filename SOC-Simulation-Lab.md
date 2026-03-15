@@ -141,8 +141,9 @@ Without these permissions, the forwarder cannot read the logs and they will not 
 ![](/images/LocalSystemAccount.png)
 
 ### Verifying Log Ingestion
-To confirm that logging works correctly, I executed the following command:
+To confirm that logging and the forwarder works correctly, I executed the following command:
 ```
+.\splunk status
 notepad.exe
 ```
 Because Sysmon logs process creation (Event ID 1), the event appears in Splunk.
